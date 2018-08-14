@@ -54,3 +54,5 @@ Due to lack of computing power I have not used the CityScapes dataset but have r
 ![um_000010](https://user-images.githubusercontent.com/26694585/44087007-060ef292-9fdc-11e8-9fca-81201a139c7a.png)
 
 
+### Conclusion
+As you can see the model has a few shortcomings of its own, it does not work well in light conditions, some images havent been recognized well and there isnt very high accuracy in the image recognition. There are many improvements that need to be made to make the model even more accurate and requiring fewer computational units. To view more of my outputs all of my test images are present in the runs folder.
