@@ -8,16 +8,12 @@ Object detection in images has been continously advancing with more efficient an
 
 ### Comparision with conventional object detection
 Conventional Object Detection involves creating a box around the desired object as shown in the example below:
-![test4](https://user-images.githubusercontent.com/26694585/44083834-b3be315a-9fd2-11e8-9e1d-8b628a6e6037.jpg)
+
+<img src="https://user-images.githubusercontent.com/26694585/44083834-b3be315a-9fd2-11e8-9e1d-8b628a6e6037.jpg" width="400"/>
 
 1) If the goal of the classification is to identify the drivable portion of the road, creating a box around it would not make any sense as it will not be able to incorporate the actual part of the image where the drivable road is present.
 
 2) Sometimes normal object detection may get too crowded and incomfortable to be read a shown here: 
 
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![convod](https://user-images.githubusercontent.com/26694585/44084247-d29c8cd8-9fd3-11e8-9ad6-d447089f5d67.png)  |  
-![semanicod](https://user-images.githubusercontent.com/26694585/44084252-d5bb3f90-9fd3-11e8-9201-72703a3c3b2a.png)
-
-<img src="https://user-images.githubusercontent.com/26694585/44084247-d29c8cd8-9fd3-11e8-9ad6-d447089f5d67.png" width="400"/> <img src="https://user-images.githubusercontent.com/26694585/44084789-48feccbe-9fd5-11e8-94c0-ca58b0c970eb.png" width="400"/> 
+<img src="https://user-images.githubusercontent.com/26694585/44084247-d29c8cd8-9fd3-11e8-9ad6-d447089f5d67.png" width="400"/>
 
