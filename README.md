@@ -19,6 +19,5 @@ Solarized dark             |  Solarized Ocean
 ![convod](https://user-images.githubusercontent.com/26694585/44084247-d29c8cd8-9fd3-11e8-9ad6-d447089f5d67.png)  |  
 ![semanicod](https://user-images.githubusercontent.com/26694585/44084252-d5bb3f90-9fd3-11e8-9201-72703a3c3b2a.png)
 
-<img src="https://user-images.githubusercontent.com/26694585/44084247-d29c8cd8-9fd3-11e8-9ad6-d447089f5d67.png" width="400"/> <img src="https://user-images.githubusercontent.com/26694585/44084252-d5bb3f90-9fd3-11e8-9201-72703a3c3b2a.png" width="450"/> 
-
+<img src="https://user-images.githubusercontent.com/26694585/44084247-d29c8cd8-9fd3-11e8-9ad6-d447089f5d67.png" width="400"/> <img src="https://user-images.githubusercontent.com/26694585/44084789-48feccbe-9fd5-11e8-94c0-ca58b0c970eb.png" width="400"/> 
 
