@@ -17,3 +17,19 @@ Conventional Object Detection involves creating a box around the desired object 
 
 <img src="https://user-images.githubusercontent.com/26694585/44084247-d29c8cd8-9fd3-11e8-9ad6-d447089f5d67.png" width="400"/>
 
+3) Semantic Segmentation has the power to obtain more accurate dimensions of the identified object which makes it easier to persorm any further computer vision techniques on it, for example: SnapChat Filters.
+
+
+### How does it work
+As compared to normal convolutions in deep learning models, semantic segmentation also makes use of:
+* 1x1 Convolutions
+* Transposed Convolutions
+* Transfer Learning
+
+#### 1x1 Convolutions
+These are basically normal convolutions with size = (1,1), and strides=(1,1). Their operation is not very different as compared to fully dense layers, and they may seem rather redundant, however they have many benefits:
+  * They are very computationally cheap to use.
+  * They may be used for any size of images, as compared to dense layers which require a certain fixed input size to work.
+  * 1x1 Convolutions are the simplest method for dimensionality reduction.
+  
+#### Transposed Convolutions
