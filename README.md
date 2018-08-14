@@ -24,6 +24,7 @@ Conventional Object Detection involves creating a box around the desired object 
 As compared to normal convolutions in deep learning models, semantic segmentation also makes use of:
 * 1x1 Convolutions
 * Transposed Convolutions
+* Skipped Connections
 * Transfer Learning
 
 #### 1x1 Convolutions
@@ -33,3 +34,16 @@ These are basically normal convolutions with size = (1,1), and strides=(1,1). Th
   * 1x1 Convolutions are the simplest method for dimensionality reduction.
   
 #### Transposed Convolutions
+Transposed Convolutions must be considered as nothing more than the opposite of normal convolutions. They upscale the images to a larger size, so that the output images may be formed from upsampling dense layers into full sized images.
+
+#### Skipped Connections
+Skipped Connections are used to reuse any information lost in the downsampling process of the network.
+![skipped](https://user-images.githubusercontent.com/26694585/44086229-8400944c-9fd9-11e8-823c-34a51c0e19da.png)
+In the above image the output of Predict2 and DeConv1 are added to give the result of DeConv2, this method regains information lost from the convolutions to give more accurate results. The downsampling part is called the encoder and the upsampling part is called the decoder
+
+#### Transfer Learning
+Lastly in this project I have used Transfer Learning. This uses pretrained weights from the VGG model. I have initialized the weights in the encoder part to those of the already trained vgg model. This way I save time in training by only having to train the decoder weights of the model.
+
+### My outputs
+Due to lack of computing power I have not used the CityScapes dataset but have rather used the KITTI dataset. This only consists of one single class of the image that is the drivable partion of the road. Here are a few examples of my test outputs:
+
