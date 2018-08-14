@@ -44,6 +44,13 @@ In the above image the output of Predict2 and DeConv1 are added to give the resu
 #### Transfer Learning
 Lastly in this project I have used Transfer Learning. This uses pretrained weights from the VGG model. I have initialized the weights in the encoder part to those of the already trained vgg model. This way I save time in training by only having to train the decoder weights of the model.
 
-### My outputs
+### My outputs:
 Due to lack of computing power I have not used the CityScapes dataset but have rather used the KITTI dataset. This only consists of one single class of the image that is the drivable partion of the road. Here are a few examples of my test outputs:
+
+![um_000017](https://user-images.githubusercontent.com/26694585/44086996-0390089e-9fdc-11e8-879d-a7a4e33ae722.png)
+![um_000087](https://user-images.githubusercontent.com/26694585/44086999-0427b4aa-9fdc-11e8-93be-1d73df0f08cb.png)
+![umm_000010](https://user-images.githubusercontent.com/26694585/44087003-0497599a-9fdc-11e8-85e6-e8f3e89fda40.png)
+![uu_000084](https://user-images.githubusercontent.com/26694585/44087005-04e6f5fe-9fdc-11e8-9b6a-a23e0e301ae5.png)
+![um_000010](https://user-images.githubusercontent.com/26694585/44087007-060ef292-9fdc-11e8-9fca-81201a139c7a.png)
+
 
